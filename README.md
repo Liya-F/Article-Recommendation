@@ -24,3 +24,17 @@ After performing the initial similarity search, reranking is used to improve the
 * Perform an initial similarity search to retrieve a set of candidate results.
 * Use a more accurate similarity metric (e.g., Cosine Similarity) to re-rank these candidates based on their relevance to the query.
 * Return the top-ranked results for the final recommendation.
+
+#### About the project
+This project performs similarity search on a collection of articles to recommend those that are most relevant to a user's query. It uses BERT to generate vector embeddings for article titles and similarity search algorithm to find and recommend the closest matches. 
+#### Key Features:
+1. Vector Embedding Generation
+2. Approximate Nearest Neighbor Search
+3. Dimensionality Reduction
+4. Reranking
+   
+#### Key Tools Used
+PyTorch
+BERT (Bidirectional Encoder Representations from Transformers)
+FAISS (Facebook AI Similarity Search)
+Scikit-learn
