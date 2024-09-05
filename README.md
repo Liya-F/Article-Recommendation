@@ -1,4 +1,4 @@
-#### Similarity Search Methods
+#### 1. Similarity Search Methods
 ##### Exact Nearest Neighbor Search
 - Similarity Metric: Euclidean Distance (L2 norm)
 - Measures the straight-line distance between vectors in the feature space.
@@ -11,12 +11,12 @@
 - Similarity Metric: Euclidean Distance (L2 norm) approximated via Product Quantization
 - Compresses vectors into quantized representations to reduce storage requirements and computational costs.
 - Suitable for very large datasets, offering reduced memory usage and faster search times at the cost of some accuracy.
-#### Mitigating Slowness in Nearest Neighbor Search
+#### 2. Mitigating Slowness in Nearest Neighbor Search
 To address the issue of slowness in nearest neighbor similarity calculations, we employ dimensionality reduction techniques. One effective method is:
 ##### Principal Component Analysis (PCA)
 - Purpose: Reduces the dimensionality of the data while preserving as much of its structure as possible.
 - How It Works: PCA projects the original high-dimensional data into a lower-dimensional space, simplifying the calculations for similarity search and speeding up the process.
-#### Enhancing Search Accuracy
+#### 3. Enhancing Search Accuracy
 After performing the initial similarity search, reranking is used to improve the accuracy of the results. 
 ##### Reranking
 - Purpose: Refines the initial search results by applying more precise similarity metrics.
