@@ -34,7 +34,7 @@ This project performs similarity search on a collection of articles to recommend
 4. Reranking
    
 #### Key Tools Used
-PyTorch
-BERT (Bidirectional Encoder Representations from Transformers)
-FAISS (Facebook AI Similarity Search)
-Scikit-learn
+1. PyTorch
+2. BERT (Bidirectional Encoder Representations from Transformers)
+3. FAISS (Facebook AI Similarity Search)
+4. Scikit-learn
