@@ -1,0 +1,28 @@
+# Ignore virtual environment
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore CSV and other data files
+*.csv
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor config files
+.vscode/
+.idea/
+
+
